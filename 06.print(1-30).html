@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iterate for loop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .output {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .even {
+            color: #007bff;
+        }
+
+        .odd {
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+    <h2>The (1-30) Number is below</h2>
+    <div class="output">
+        <script>
+            for(var x=0;x<=30;x++){
+                if(x%2==0){
+                    document.write('<span class="even">' + x + ' is even</span><br>');
+                }
+                else{
+                    document.write('<span class="odd">' + x + ' is odd</span><br>');
+                }
+            }
+        </script>
+    </div>
+</body>
+</html>
